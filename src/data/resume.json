@@ -1,0 +1,60 @@
+{
+    "firstname": "Ashley",
+    "lastname": "Grenon",
+    "email": "hello@ashleygrenon.com",
+    "location": "Huntsville, AL",
+    "phone": "256-262-7935",
+    "avatar": "https://avatars2.githubusercontent.com/u/1208961?s=460&v=4",
+    "github": "https://github.com/townsean",
+    "twitter": "https://twitter.com/thecodingcouple",
+    "website": "https://www.thecodingcouple.com/",
+    "summary": "",
+    "education": [
+        {
+            "school": "University of Alabama in Huntsville",
+            "degree": "Bachelor of Science",
+            "major": "Computer Science",
+            "minor": "Mathematics",
+            "start": "August 2005",
+            "end": "December 2009"
+        }
+    ],
+    "experience": [
+        {
+            "company": "COLSA Corporation",
+            "job": "Software Engineer",
+            "start": "December 2016",
+            "end": "Present"
+        }, 
+        {
+            "company": "SAIC",
+            "job": "Software Engineer",
+            "start": "January 2010",
+            "end": "December 2016"
+        }, 
+        {
+            "company": "COLSA Corporation",
+            "job": "Computer Operator (Intern)",
+            "start": "August 2007",
+            "end": "December 2009"
+        }
+    ],
+    "skills": ["JavaScript", "TypeScript", "C#", "Python"],
+    "interests": "",
+    "projects": [
+        {
+            "name": "Bingo Card Generator",
+            "start": "April 2016",
+            "description": "An Aurelia web app that generates themed bingo cards.",
+            "source": "https://github.com/townsean/bingo-card-generator",
+            "website": "http://townsean.github.io/bingo-card-generator/"
+        },
+        {
+            "name": "Image Watermarker",
+            "start": "August 2015",
+            "description": "https://github.com/townsean/image-marker",
+            "source": "https://github.com/townsean/image-marker",
+            "website": "https://www.thecodingcouple.com/watermark-images-python-pillow-pil/"
+        }
+    ]
+}
