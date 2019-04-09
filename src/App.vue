@@ -2,7 +2,9 @@
   <div id="app">
     <header>
       <nav>
-        <img v-bind:src="data.avatar" />
+        <div class="avatar">        
+          <img v-bind:src="data.avatar" />
+        </div>
         <ul>
           <li class="nav-item"><a href="#about">About</a></li>          
           <li class="nav-item"><a href="#experience">Experience</a></li>
@@ -14,19 +16,17 @@
       </nav>
     </header>
     <main>
-      <HomePage />
-      <AboutSection id="about" />
-      <ExperienceSection id="experience" />
-      <SkillSection id="skills" />
-      <Education id="education" />
-      <ProjectSection id="project" />
-      <InterestSection id="interests" />
+      <AboutSection id="about" :profile="data" />
+      <ExperienceSection id="experience" v-bind:experience="data.experience" />
+      <SkillSection id="skills" v-bind:skills="data.skills" />
+      <EducationSection id="education" v-bind:schools="data.education" />
+      <ProjectSection id="projects" v-bind:projects="data.projects" />
+      <InterestSection id="interests" v-bind:interests="data.interests" />
     </main>
   </div>
 </template>
 
 <script>
-import HomePage from './components/HomePage.vue';
 import AboutSection from './components/AboutSection.vue';
 import ExperienceSection from './components/ExperienceSection.vue';
 import SkillSection from './components/SkillSection.vue';
@@ -39,7 +39,6 @@ import data from './data/resume.json';
 export default {
   name: 'app',
   components: {
-    HomePage,
     AboutSection,
     ExperienceSection,
     SkillSection,
@@ -59,18 +58,39 @@ body {
   background: radial-gradient(circle at bottom, royalblue, midnightblue);
   background-attachment: fixed;
 }
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
   margin-top: 60px;
 }
+
 main {
   margin: 0 auto;
   padding: 30px;
   background-color: white;
   min-height: 300px;
+}
+
+.avatar {
+  border-radius: 50%;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+}
+
+img {
+  display: inline;
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+}
+
+.date-range {
+  
 }
 </style>

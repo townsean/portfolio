@@ -1,14 +1,14 @@
 {
     "firstname": "Ashley",
     "lastname": "Grenon",
-    "email": "hello@ashleygrenon.com",
+    "email": "hello@handmadewithashley.com",
     "location": "Huntsville, AL",
     "phone": "256-262-7935",
     "avatar": "https://avatars2.githubusercontent.com/u/1208961?s=460&v=4",
     "github": "https://github.com/townsean",
     "twitter": "https://twitter.com/thecodingcouple",
     "website": "https://www.thecodingcouple.com/",
-    "summary": "",
+    "summary": "Ashley is a software engineer with 10 years experience.",
     "education": [
         {
             "school": "University of Alabama in Huntsville",
@@ -24,23 +24,33 @@
             "company": "COLSA Corporation",
             "job": "Software Engineer",
             "start": "December 2016",
-            "end": "Present"
+            "end": "Present",
+            "description": "My work experience at COLSA as a software engineer"
         }, 
         {
             "company": "SAIC",
             "job": "Software Engineer",
             "start": "January 2010",
-            "end": "December 2016"
+            "end": "December 2016",
+            "description": "My work experience at SAIC as a software engineer"
         }, 
         {
             "company": "COLSA Corporation",
             "job": "Computer Operator (Intern)",
             "start": "August 2007",
-            "end": "December 2009"
+            "end": "December 2009",
+            "description": "My work experience at COLSA as a computer operator"
         }
     ],
-    "skills": ["JavaScript", "TypeScript", "C#", "Python"],
-    "interests": "",
+    "skills": [ 
+        { "name": "JavaScript", "image_url": "", "proficiency_level": "" },
+        { "name": "TypeScript", "image_url": "", "proficiency_level": "" },
+        { "name": "Python", "image_url": "", "proficiency_level": "" },
+        { "name": "C#", "image_url": "", "proficiency_level": "" },
+        { "name": "HTML", "image_url": "", "proficiency_level": "" },
+        { "name": "CSS", "image_url": "", "proficiency_level": "" }
+    ],
+    "interests": "In her spare time, Ashley enjoys woodworking (Handmade with Ashley), tabletop gaming (Cardboard Bits), binge watching Korean dramas, 3D printing and spending time with her family.",
     "projects": [
         {
             "name": "Bingo Card Generator",

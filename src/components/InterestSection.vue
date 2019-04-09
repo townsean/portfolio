@@ -1,8 +1,13 @@
-<template></template>
+<template>
+    <section>
+        <h2>Interests</h2>
+        <p>{{ interests }}</p>
+    </section>
+</template>
 <script>
     export default {
         name: 'InterestSection',
-        prop: []
+        props: ['interests']
     }
 </script>
 <style></style>

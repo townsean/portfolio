@@ -2,21 +2,26 @@
     <div>
         <!-- Name -->
         <section class="name">
-            <span class="first_name"></span>
-            <span class="last_name"></span>
+            <span class="firstname">{{ profile.firstname }} </span>
+            <span class="lastname">{{ profile.lastname }}</span>
         </section>
         <!-- Contact -->
         <section class="contact">
+            <span>{{ profile.location }} </span>
+            <span>&#8226;</span>
+            <span> {{ profile.phone }} </span>
+            <span>&#8226;</span>
+            <span> {{ profile.email }} </span>
         </section>
         <!-- Summary -->
         <section class="summary">
-            <p></p>
+            <p>{{ profile.summary }}</p>
         </section>
         <!-- Links -->
         <section class="links">
-            <font-awesome-icon icon="github" />
-            <font-awesome-icon icon="twitter" />
-            <font-awesome-icon icon="globe" />
+            <!--<font-awesome-icon icon="coffee" />
+            <font-awesome-icon icon="twitter-square" />
+            <font-awesome-icon icon="globe" />-->
         </section>
     </div>
 </template>
@@ -26,7 +31,7 @@
 
     export default {
         name: 'AboutSection',
-        props: []
+        props: ['profile']
     }
 </script>
 
