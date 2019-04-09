@@ -3,15 +3,15 @@
     <header>
       <nav>
         <div class="avatar">        
-          <img v-bind:src="data.avatar" />
+          <img v-bind:src="data.avatar_url" />
         </div>
         <ul>
-          <li class="nav-item"><a href="#about">About</a></li>          
-          <li class="nav-item"><a href="#experience">Experience</a></li>
-          <li class="nav-item"><a href="#skills">Skills</a></li>
-          <li class="nav-item"><a href="#education">Education</a></li>
-          <li class="nav-item"><a href="#projects">Projects</a></li>          
-          <li class="nav-item"><a href="#interests">Interests</a></li>
+          <li class="nav-item"><a href="#about" v-scroll-to="'#about'">About</a></li>          
+          <li class="nav-item"><a href="#experience" v-scroll-to="'#experience'">Experience</a></li>
+          <li class="nav-item"><a href="#skills" v-scroll-to="'#skills'">Skills</a></li>
+          <li class="nav-item"><a href="#education" v-scroll-to="'#education'">Education</a></li>
+          <li class="nav-item"><a href="#projects" v-scroll-to="'#projects'">Projects</a></li>          
+          <li class="nav-item"><a href="#interests" v-scroll-to="'#interests'">Interests</a></li>
         </ul>
       </nav>
     </header>
@@ -84,13 +84,12 @@ main {
 }
 
 img {
-  display: inline;
   margin: 0 auto;
   height: 100%;
   width: 100%;
 }
 
 .date-range {
-  
+
 }
 </style>

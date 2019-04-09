@@ -1,18 +1,21 @@
 import Vue from 'vue';
-import App from './App.vue';
+import VueScrollTo from 'vue-scrollto';
 
 // font awesome
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
-import { faGithubSquare, faTwitterSquare } from '@fortawesome/fontawesome-free-brands';
-import { fas } from '@fortawesome/free-solid-svg-icons';
+import { faCoffee, faGlobe } from '@fortawesome/free-solid-svg-icons';
+import { faGithubSquare, faTwitterSquare, faGithub } from '@fortawesome/fontawesome-free-brands';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 
-library.add(faCoffee, fas, faGithubSquare, faTwitterSquare);
+import App from './App.vue';
+
+library.add(faCoffee, faGithubSquare, faTwitterSquare, faGlobe, faGithub);
 
 Vue.component('font-awesome-icon', FontAwesomeIcon);
 
 Vue.config.productionTip = false;
+
+Vue.use(VueScrollTo);
 
 new Vue({
   render: h => h(App),

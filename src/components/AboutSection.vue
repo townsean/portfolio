@@ -19,8 +19,8 @@
         </section>
         <!-- Links -->
         <section class="links">
-            <!--<font-awesome-icon icon="github-square" title="GitHub" />
-            <font-awesome-icon icon="twitter-square" title="Twitter" />-->
+            <a :href="profile.github"><font-awesome-icon :icon="['fab', 'github']" title="GitHub" /></a>
+            <a :href="profile.twitter"><font-awesome-icon :icon="['fab', 'twitter-square']" title="Twitter" /></a>
             <a :href="profile.website"><font-awesome-icon icon="globe" title="Website" /></a>
         </section>
     </div>
