@@ -1,10 +1,10 @@
 <template>
     <div>
         <!-- Name -->
-        <section class="name">
-            <span class="firstname">{{ profile.firstname }} </span>
-            <span class="lastname">{{ profile.lastname }}</span>
-        </section>
+        <h1 class="name">
+            {{ profile.firstname }}
+            <span class="lastname"> {{ profile.lastname }}</span>
+        </h1>
         <!-- Contact -->
         <section class="contact">
             <span>{{ profile.location }} </span>
@@ -19,9 +19,9 @@
         </section>
         <!-- Links -->
         <section class="links">
-            <!--<font-awesome-icon icon="coffee" />
-            <font-awesome-icon icon="twitter-square" />
-            <font-awesome-icon icon="globe" />-->
+            <!--<font-awesome-icon icon="github-square" title="GitHub" />
+            <font-awesome-icon icon="twitter-square" title="Twitter" />-->
+            <a :href="profile.website"><font-awesome-icon icon="globe" title="Website" /></a>
         </section>
     </div>
 </template>
