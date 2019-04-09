@@ -41,7 +41,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 ## Built With
 
 * [Vue.js](https://vuejs.org/)
-* [vue-scrollTo](https://github.com/rigor789/vue-scrollto) 
+* [vue-scrollto](https://github.com/rigor789/vue-scrollto) 
 * [Font Awesome](https://fontawesome.com/how-to-use/on-the-web/using-with/vuejs)
 * [Visual Studio Code](https://code.visualstudio.com/)
 
