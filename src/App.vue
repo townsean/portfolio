@@ -53,7 +53,7 @@ export default {
 </script>
 
 <style>
-  @import url('https://fonts.googleapis.com/css?family=Lato|Oswald:700');
+  @import url('https://fonts.googleapis.com/css?family=Lato|Oswald');
 
   :root {
     --main-color: #1152AD;

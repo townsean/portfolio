@@ -64,6 +64,8 @@
         border-radius: 1px;
         border: 1px solid midnightblue;
         margin: 5px;
+        word-wrap: break-word;
+        width: 130px;
     }
 
     .image-container {
@@ -72,8 +74,8 @@
     }
 
     .image-container > img {
-        height: 150px;
-        width: 150px;
+        height: 120px;
+        width: 120px;
         background-position: 50% 50%;
         background-size: cover;
         object-fit: cover;
