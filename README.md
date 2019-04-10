@@ -50,6 +50,8 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 * [vue-scrollto](https://github.com/rigor789/vue-scrollto) 
 * [Font Awesome](https://fontawesome.com/how-to-use/on-the-web/using-with/vuejs)
 * [Visual Studio Code](https://code.visualstudio.com/)
+* [Adobe Color](https://color.adobe.com/create) (Color pallete: #1152AD, #4D97FF, #3185FA, #AD700, #FAB632)
+* [Oswald](https://fonts.google.com/specimen/Oswald) and [Lato](https://fonts.google.com/specimen/Lato) Google Fonts
 
 For the skill proficiency text labels I used the NIH [competencies proficiency scale](https://hr.nih.gov/working-nih/competencies/competencies-proficiency-scale) levels.
 
