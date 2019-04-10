@@ -10,6 +10,12 @@ Portfolio is a Vue.js web application that reads in json data and displays the c
 
 I felt like I was stagnating as developer and wanted to learn Vue.js. Building a website version of my resume is a project that has been on my todo list. Learning by doing is a great way to make a lesson stick so I decided to learn Vue.js as I built this resume website.
 
+## Inspiration
+
+I'm firm believer in giving credit where it's due. Prior to getting started, I looked online for inspiration and found several different website resumes. One of my favorites that I came accross was [Start Bootstrap's example resume](https://startbootstrap.com/previews/resume/). My website's layout and typography is largely inspired by this one. 
+
+(I did avoid looking at the source for the example as the main purpose of this project is learning.) 
+
 ## Project setup
 ```
 npm install
