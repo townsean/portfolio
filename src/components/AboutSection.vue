@@ -19,9 +19,9 @@
         </section>
         <!-- Links -->
         <section class="links">
-            <a class="icon" :href="profile.github"><font-awesome-icon :icon="['fab', 'github']" title="GitHub" /></a>
-            <a class="icon" :href="profile.twitter"><font-awesome-icon :icon="['fab', 'twitter']" title="Twitter" /></a>
-            <a class="icon" :href="profile.website"><font-awesome-icon icon="globe" title="Website" /></a>
+            <a class="icon" :href="profile.github" title="GitHub"><font-awesome-icon :icon="['fab', 'github']" /></a>
+            <a class="icon" :href="profile.twitter" title="Twitter"><font-awesome-icon :icon="['fab', 'twitter']" /></a>
+            <a class="icon" :href="profile.website" title="Website"><font-awesome-icon icon="globe" /></a>
         </section>
     </div>
 </template>
@@ -35,9 +35,16 @@
 
 <style>
     .icon {
-        border: 1px solid midnightblue;
+        border: 1px solid var(--main-color);
         border-radius: 50%;
         margin-right: 0.5rem;
         padding: 0.5rem;
+        color: var(--main-color);
+        font-size: 1.5rem;
+    }
+
+    .icon:hover {
+        background-color: var(--main-color);
+        color: whitesmoke;
     }
 </style>
