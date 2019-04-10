@@ -45,6 +45,8 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 * [Font Awesome](https://fontawesome.com/how-to-use/on-the-web/using-with/vuejs)
 * [Visual Studio Code](https://code.visualstudio.com/)
 
+For the skill proficiency text labels I used the NIH [competencies proficiency scale](https://hr.nih.gov/working-nih/competencies/competencies-proficiency-scale) levels.
+
 ## Maintainers
 
 * [Ashley Grenon - @townsean](https://github.com/townsean)
