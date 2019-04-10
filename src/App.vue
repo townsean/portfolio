@@ -53,45 +53,49 @@ export default {
 </script>
 
 <style>
-body {
-  /*background: linear-gradient(to bottom, #555, #999);*/
-  background: radial-gradient(circle at bottom, royalblue, midnightblue);
-  background-attachment: fixed;
-}
+  body {
+    /*background: linear-gradient(to bottom, #555, #999);*/
+    background: radial-gradient(circle at bottom, royalblue, midnightblue);
+    background-attachment: fixed;
+  }
 
-#app {
-  display: flex;
-}
+  #app {
+    display: flex;
+  }
 
-nav {
-  flex: 0;
-  min-width: 300px;
-}
+  nav {
+    flex: 0;
+    min-width: 300px;
+  }
 
-main {
-  margin: 0 auto;
-  padding: 30px;
-  background-color: white;
-  min-height: 300px;
-  flex: 1 2;
-}
+  nav li {
+    text-transform: uppercase;
+  }
 
-.avatar {
-  border-radius: 50%;
-  margin: 0 auto;
-  position: relative;
-  overflow: hidden;
-  width: 200px;
-  height: 200px;
-}
+  main {
+    margin: 0 auto;
+    padding: 30px;
+    background-color: white;
+    min-height: 300px;
+    flex: 1 2;
+  }
 
-img {
-  margin: 0 auto;
-  height: 100%;
-  width: 100%;
-}
+  .avatar {
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+  }
 
-.date-range {
+  img {
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+  }
 
-}
+  h1, h2, h3 {
+    text-transform: uppercase;
+  }
 </style>

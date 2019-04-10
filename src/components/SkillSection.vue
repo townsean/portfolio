@@ -1,9 +1,9 @@
 <template>
     <section>
         <h2>Skills</h2>
-        <section class="skill-container" v-for="skill in skills" :key="skill.id">
-            <!-- Probably should create a component for this section and the proficiency bar -->
-            <div class="skill-card">
+        <main class="skill-container">
+            <section class="skill-card" v-for="skill in skills" :key="skill.id">
+                <!-- Probably should create a component for this section and the proficiency bar -->                
                 <div class="image-container">
                     <img :src="'assets/' + skill.image_url" :alt="skill.name" >
                 </div>
@@ -13,9 +13,9 @@
                         {{ skill.proficiency_level }}
                         <div class="proficiency-gradient" :style="{ width: decimalToPercentage(skill.proficiency_level) }"></div>
                     </div>
-                </div>
-            </div>
-        </section>
+                </div>                
+            </section>
+        </main>        
     </section>
 </template>
 <script>
@@ -57,6 +57,7 @@
 
     .skill-container {
         display: flex;
+        flex-flow: row wrap;
     }
 
     .skill-card {
@@ -71,9 +72,11 @@
     }
 
     .image-container > img {
-        height: 100px;
-        min-width: 200px;
-        width: auto;
+        height: 150px;
+        width: 150px;
+        background-position: 50% 50%;
+        background-size: cover;
+        object-fit: cover;
         margin: 5px;
     }
 
@@ -97,5 +100,10 @@
         left: 0;
         height: var(--proficiency-bar-height);
         background: linear-gradient(to right, lime, greenyellow);
+    }
+
+    h4 {
+        font-weight: normal;
+        margin: 5px;
     }
 </style>
