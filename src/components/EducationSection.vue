@@ -1,7 +1,7 @@
 <template>
     <section>
         <h2>Education</h2>        
-        <section v-for="school in schools">
+        <section v-for="school in schools" :key="school.id">
             <p>{{ school.school }}</p>
             <span>{{ school.start }} - {{ school.end }}</span>
             <p>{{ school.degree }}</p>

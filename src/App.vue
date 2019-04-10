@@ -3,7 +3,7 @@
     <header>
       <nav>
         <div class="avatar">        
-          <img v-bind:src="data.avatar_url" />
+          <img v-bind:src="data.avatar_url" alt="Profile picture" />
         </div>
         <ul>
           <li class="nav-item"><a href="#about" v-scroll-to="'#about'">About</a></li>          
@@ -60,11 +60,12 @@ body {
 }
 
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
-  margin-top: 60px;
+  display: flex;
+}
+
+nav {
+  flex: 0;
+  min-width: 300px;
 }
 
 main {
@@ -72,6 +73,7 @@ main {
   padding: 30px;
   background-color: white;
   min-height: 300px;
+  flex: 1 2;
 }
 
 .avatar {

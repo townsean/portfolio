@@ -19,20 +19,25 @@
         </section>
         <!-- Links -->
         <section class="links">
-            <a :href="profile.github"><font-awesome-icon :icon="['fab', 'github']" title="GitHub" /></a>
-            <a :href="profile.twitter"><font-awesome-icon :icon="['fab', 'twitter-square']" title="Twitter" /></a>
-            <a :href="profile.website"><font-awesome-icon icon="globe" title="Website" /></a>
+            <a class="icon" :href="profile.github"><font-awesome-icon :icon="['fab', 'github']" title="GitHub" /></a>
+            <a class="icon" :href="profile.twitter"><font-awesome-icon :icon="['fab', 'twitter']" title="Twitter" /></a>
+            <a class="icon" :href="profile.website"><font-awesome-icon icon="globe" title="Website" /></a>
         </section>
     </div>
 </template>
 
 <script>
-    
-
     export default {
         name: 'AboutSection',
         props: ['profile']
     }
 </script>
 
-<style></style>
+<style>
+    .icon {
+        border: 1px solid midnightblue;
+        border-radius: 50%;
+        margin-right: 0.5rem;
+        padding: 0.5rem;
+    }
+</style>

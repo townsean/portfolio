@@ -1,7 +1,7 @@
 <template>
     <section>
         <h2>Experience</h2>
-        <section v-for="exp in experience">
+        <section v-for="exp in experience" :key="exp.id">
             <p>{{ exp.job }}</p>
             <span>{{ exp.start }} - {{ exp.end }}</span>
             <p>{{ exp.company }}</p>
