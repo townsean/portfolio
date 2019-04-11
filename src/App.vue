@@ -6,16 +6,34 @@
           <img v-bind:src="data.avatar_url" alt="Profile picture" />
         </div>
         <ul>
-          <li class="nav-item"><a href="#about" v-scroll-to="'#about'">About</a></li>          
-          <li class="nav-item"><a href="#experience" v-scroll-to="'#experience'">Experience</a></li>
-          <li class="nav-item"><a href="#skills" v-scroll-to="'#skills'">Skills</a></li>
-          <li class="nav-item"><a href="#education" v-scroll-to="'#education'">Education</a></li>
-          <li class="nav-item"><a href="#projects" v-scroll-to="'#projects'">Projects</a></li>          
-          <li class="nav-item"><a href="#interests" v-scroll-to="'#interests'">Interests</a></li>
+          <!-- About -->
+          <li class="nav-item">
+            <a href="#about" v-scroll-to="{el: '#about', container: '#resume'}">About</a>
+          </li>          
+          <!-- Experience -->
+          <li class="nav-item">
+            <a href="#experience" v-scroll-to="{el: '#experience', container: '#resume'}">Experience</a>
+          </li>
+          <!-- Skills -->
+          <li class="nav-item">
+            <a href="#skills" v-scroll-to="{el: '#skills', container: '#resume'}">Skills</a>
+          </li>
+          <!-- Education -->
+          <li class="nav-item">
+            <a href="#education" v-scroll-to="{el: '#education', container: '#resume'}">Education</a>
+          </li>
+          <!-- Projects -->
+          <li class="nav-item">
+            <a href="#projects" v-scroll-to="{el: '#projects', container: '#resume'}">Projects</a>
+          </li>          
+          <!-- Interests -->
+          <li class="nav-item">
+            <a href="#interests" v-scroll-to="{el: '#interests', container: '#resume'}">Interests</a>
+          </li>
         </ul>
       </nav>
     </header>
-    <main class="resume">
+    <main id="resume">
       <AboutSection id="about" :profile="data" />
       <ExperienceSection id="experience" v-bind:experience="data.experience" />
       <SkillSection id="skills" v-bind:skills="data.skills" />
@@ -53,7 +71,7 @@ export default {
 </script>
 
 <style>
-  @import url('https://fonts.googleapis.com/css?family=Lato|Oswald');
+  @import url('https://fonts.googleapis.com/css?family=Lato|Roboto');
 
   :root {
     --main-color: #1152AD;
@@ -70,13 +88,8 @@ export default {
     background-attachment: fixed;
     margin: 0;
     font-family: 'Lato', sans-serif;
-  }
-
-  #app {
-    display: flex;
     overflow: hidden;
-    height: 100%;
-  }
+  } 
 
   header {
     display: flex;
@@ -84,8 +97,7 @@ export default {
 
   nav {
     margin-top: 35px;
-    flex-shrink: 0;
-    min-width: 300px;
+    min-width: 275px;
   }
 
   nav ul {
@@ -102,7 +114,7 @@ export default {
     text-transform: uppercase;
     text-decoration: none;
     color: var(--main-color-light);
-    margin: 10px;
+    margin: 15px;
   }
 
   nav li a:active {
@@ -111,15 +123,29 @@ export default {
 
   nav li a:hover {
     color: var(--main-color-white);
+  }  
+
+  img {
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
   }
 
-  .resume {
-    margin: 0 auto;
-    padding: 30px;
-    background-color: whitesmoke;
-    min-height: 100vh;
-    flex: 1;
-    overflow-y: auto;
+  h1, h2, h3, h4 {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  h1, h2, h3 {    
+    text-transform: uppercase;
+  }
+
+  h3, h4 {
+    margin: 5px 0;
+  }
+
+  h4 {
+    color: gray;
+    font-weight: 200;
   }
 
   .avatar {
@@ -132,14 +158,19 @@ export default {
     height: 200px;
   }
 
-  img {
-    margin: 0 auto;
-    height: 100%;
-    width: 100%;
+  .date-range {
+    color: var(--main-color);
   }
 
-  h1, h2, h3 {
-    text-transform: uppercase;
-    font-family: 'Oswald', sans-serif;
+  #app {
+    display: flex;
+    height: 100vh;
+  }
+
+  #resume {
+    margin: 0 auto;
+    padding: 30px;
+    background-color: whitesmoke;
+    overflow-y: auto;
   }
 </style>

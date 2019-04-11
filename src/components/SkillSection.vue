@@ -7,7 +7,7 @@
                 <div class="image-container">
                     <img :src="'assets/' + skill.image_url" :alt="skill.name" >
                 </div>
-                <h4>{{ skill.name }}</h4>
+                <h5>{{ skill.name }}</h5>
                 <div class="proficiency-bar-container">
                     <div class="proficiency-bar" :title="skill.proficiency_level | proficiencyLevelToText">
                         {{ skill.proficiency_level }}
@@ -66,6 +66,9 @@
         margin: 5px;
         word-wrap: break-word;
         width: 130px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
 
     .image-container {
@@ -104,7 +107,7 @@
         background: linear-gradient(to right, lime, greenyellow);
     }
 
-    h4 {
+    h5 {
         font-weight: normal;
         margin: 5px;
     }

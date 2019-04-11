@@ -38,13 +38,16 @@
         border: 1px solid var(--main-color);
         border-radius: 50%;
         margin-right: 0.5rem;
-        padding: 0.5rem;
-        color: var(--main-color);
-        font-size: 1.5rem;
+        padding: 8px 10px;
+        color: var(--main-color);       
+        font-size: 1.25em;;
     }
 
     .icon:hover {
         background-color: var(--main-color);
         color: whitesmoke;
+    }
+
+    font-awesome-icon { 
     }
 </style>

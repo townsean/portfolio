@@ -51,7 +51,7 @@
         { "name": "CSS", "image_url": "css.png", "proficiency_level": ".5" },
         { "name": "Arduino", "image_url": "arduino.jpg", "proficiency_level": ".3" },
         { "name": "Phaser", "image_url": "phaser.png", "proficiency_level": ".3" },
-        { "name": "SQL", "image_url": "", "proficiency_level": ".5" },
+        { "name": "SQL", "image_url": "database.jpg", "proficiency_level": ".5" },
         { "name": "MongoDB", "image_url": "mongodb.png", "proficiency_level": ".4" },
         { "name": ".NET Core", "image_url": "netcore.png", "proficiency_level": ".79" },
         { "name": "ASP.NET Core", "image_url": "asp.netcore.jpg", "proficiency_level": ".60" },
