@@ -8,7 +8,7 @@ Portfolio is a Vue.js web application that reads in json data and displays the c
 
 ## Motivation
 
-I felt like I was stagnating as developer and wanted to learn Vue.js. Building a website version of my resume is a project that has been on my todo list. Learning by doing is a great way to make a lesson stick so I decided to learn Vue.js as I built this resume website.
+I felt like I was stagnating as developer and wanted to learn [Vue.js](https://vuejs.org/). Building a website version of my resume is a project that has been on my todo list. Learning by doing is a great way to make a lesson stick so I decided to learn Vue.js as I built this resume website.
 
 I also used this project as an opportunity to become more proficient with CSS, specifically with the [CSS Flexible Box Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout). 
 
