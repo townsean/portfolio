@@ -43,14 +43,14 @@ npm run test
 npm run lint
 ```
 
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
+
 ## Push updates to gh-pages
 ```
 git add dist && git commit -m "updating gh-pages"
 git subtree push --prefix dist origin gh-pages
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ## Built With
 
