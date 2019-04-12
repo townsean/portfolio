@@ -182,6 +182,7 @@ export default {
     padding: 30px;
     background-color: whitesmoke;
     overflow-y: auto;
+    flex: 1;
   }
 
   @media screen and (max-width: 600px) {

@@ -69,8 +69,8 @@
         { "name": "HTML", "category": "Languages", "image_url": "html.png", "proficiency_level": ".7" },
         { "name": "CSS", "category": "Languages", "image_url": "css.png", "proficiency_level": ".5" },
         { "name": "Arduino", "category": "Languages", "image_url": "arduino.jpg", "proficiency_level": ".3" },
-        { "name": "Phaser", "category": "Frameworks and Libraries", "image_url": "phaser.png", "proficiency_level": ".3" },,
-        { "name": "MySQL", "category": "Databases", "image_url": "mysql.jpg", "proficiency_level": ".5" },
+        { "name": "Phaser", "category": "Frameworks and Libraries", "image_url": "phaser.png", "proficiency_level": ".3" },
+        { "name": "MySQL", "category": "Databases", "image_url": "mysql.png", "proficiency_level": ".5" },
         { "name": "MSSQL", "category": "Databases", "image_url": "database.jpg", "proficiency_level": ".5" },
         { "name": "MongoDB", "category": "Databases", "image_url": "mongodb.png", "proficiency_level": ".4" },
         { "name": ".NET Core", "category": "Frameworks and Libraries", "image_url": "netcore.png", "proficiency_level": ".79" },
@@ -113,7 +113,7 @@
         {
             "name": "Image Watermarker",
             "start": "August 2015",
-            "description": "https://github.com/townsean/image-marker",
+            "description": "A Python script gives users the ability to watermark image files in bulk.",
             "source": "https://github.com/townsean/image-marker",
             "website": "https://www.thecodingcouple.com/watermark-images-python-pillow-pil/"
         }

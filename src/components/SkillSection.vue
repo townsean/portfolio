@@ -1,21 +1,26 @@
 <template>
     <section>
         <h2>Skills</h2>
-        <main class="skill-container">
-            <section class="skill-card" v-for="skill in skills" :key="skill.id">
-                <!-- Probably should create a component for this section and the proficiency bar -->                
-                <div class="image-container">
-                    <img :src="'assets/' + skill.image_url" :alt="skill.name" >
+        <section>
+            <div class="category-group" v-for="(skills, category) in categories" :key="category.id">
+                <h3>{{ category }}</h3>
+                <div class="skill-container">
+                    <section class="skill-card" v-for="skill in skills" :key="skill.id">
+                        <!-- Probably should create a component for this section and the proficiency bar -->                
+                        <div class="image-container">
+                            <img :src="'assets/' + skill.image_url" :alt="skill.name" >
+                        </div>
+                        <h5>{{ skill.name }}</h5>
+                        <div class="proficiency-bar-container">
+                            <div class="proficiency-bar" :title="skill.proficiency_level | proficiencyLevelToText">
+                                {{ skill.proficiency_level }}
+                                <div class="proficiency-gradient" :style="{ width: decimalToPercentage(skill.proficiency_level) }"></div>
+                            </div>
+                        </div>                
+                    </section>
                 </div>
-                <h5>{{ skill.name }}</h5>
-                <div class="proficiency-bar-container">
-                    <div class="proficiency-bar" :title="skill.proficiency_level | proficiencyLevelToText">
-                        {{ skill.proficiency_level }}
-                        <div class="proficiency-gradient" :style="{ width: decimalToPercentage(skill.proficiency_level) }"></div>
-                    </div>
-                </div>                
-            </section>
-        </main>        
+            </div>            
+        </section>        
     </section>
 </template>
 <script>
@@ -26,6 +31,22 @@
             decimalToPercentage(value) {
                 // TODO: Protect against unhappy cases
                 return value * 100 + '%';
+            },
+            groupBy(array, property) {
+                return array.reduce(function(groups, obj) {
+                    let key = obj[property];
+                    if(!groups[key]) {
+                        groups[key] = [];
+                    }
+
+                    groups[key].push(obj);
+                    return groups;
+                }, {});                
+            }
+        },
+        computed: {
+            categories() {
+                return this.groupBy(this.skills, "category");
             }
         },
         filters: {
@@ -53,7 +74,12 @@
 <style>
     :root {
         --proficiency-bar-height: 15px;
-    }    
+    }
+
+    .category-group {
+        display: flex;
+        flex-direction: column;
+    }
 
     .skill-container {
         display: flex;
@@ -65,7 +91,7 @@
         border: 1px solid midnightblue;
         margin: 5px;
         word-wrap: break-word;
-        width: 130px;
+        width: 125px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -77,8 +103,8 @@
     }
 
     .image-container > img {
-        height: 120px;
-        width: 120px;
+        height: 115px;
+        width: 115px;
         background-position: 50% 50%;
         background-size: cover;
         object-fit: cover;
