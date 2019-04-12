@@ -68,7 +68,7 @@
         { "name": "C#", "category": "Languages", "image_url": "csharp.png", "proficiency_level": ".75" },
         { "name": "HTML", "category": "Languages", "image_url": "html.png", "proficiency_level": ".7" },
         { "name": "CSS", "category": "Languages", "image_url": "css.png", "proficiency_level": ".5" },
-        { "name": "Arduino", "category": "Language", "image_url": "arduino.jpg", "proficiency_level": ".3" },
+        { "name": "Arduino", "category": "Languages", "image_url": "arduino.jpg", "proficiency_level": ".3" },
         { "name": "Phaser", "category": "Frameworks and Libraries", "image_url": "phaser.png", "proficiency_level": ".3" },,
         { "name": "MySQL", "category": "Databases", "image_url": "mysql.jpg", "proficiency_level": ".5" },
         { "name": "MSSQL", "category": "Databases", "image_url": "database.jpg", "proficiency_level": ".5" },
