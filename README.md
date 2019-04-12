@@ -8,7 +8,9 @@ Portfolio is a Vue.js web application that reads in json data and displays the c
 
 ## Motivation
 
-I felt like I was stagnating as developer and wanted to learn Vue.js. Building a website version of my resume is a project that has been on my todo list. Learning by doing is a great way to make a lesson stick so I decided to learn Vue.js as I built this resume website.
+I felt like I was stagnating as developer and wanted to learn [Vue.js](https://vuejs.org/). Building a website version of my resume is a project that has been on my todo list. Learning by doing is a great way to make a lesson stick so I decided to learn Vue.js as I built this resume website.
+
+I also used this project as an opportunity to become more proficient with CSS, specifically with the [CSS Flexible Box Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout). 
 
 ## Inspiration
 
@@ -41,14 +43,14 @@ npm run test
 npm run lint
 ```
 
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
+
 ## Push updates to gh-pages
 ```
 git add dist && git commit -m "updating gh-pages"
 git subtree push --prefix dist origin gh-pages
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ## Built With
 
@@ -57,7 +59,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 * [Font Awesome](https://fontawesome.com/how-to-use/on-the-web/using-with/vuejs)
 * [Visual Studio Code](https://code.visualstudio.com/)
 * [Adobe Color](https://color.adobe.com/create) (for color pallete)
-* [Oswald](https://fonts.google.com/specimen/Oswald) and [Lato](https://fonts.google.com/specimen/Lato) Google Fonts
+* [Roboto](https://fonts.google.com/specimen/Roboto) and [Lato](https://fonts.google.com/specimen/Lato) Google Fonts
 
 For the skill proficiency text labels I used the NIH [competencies proficiency scale](https://hr.nih.gov/working-nih/competencies/competencies-proficiency-scale) levels.
 
