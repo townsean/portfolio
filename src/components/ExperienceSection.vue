@@ -5,7 +5,11 @@
             <h3>{{ exp.job }}</h3>
             <h4>{{ exp.company }}</h4>            
             <span class="date-range">{{ exp.start }} - {{ exp.end }}</span>
-            <p>{{ exp.description }}</p>
+            <ul>
+                <li v-for="task in exp.tasks" :key="task.id">
+                    {{ task }}
+                </li>
+            </ul>
         </section>
     </section>
 </template>
@@ -16,5 +20,5 @@
     }
 </script>
 <style>
-    
+
 </style>

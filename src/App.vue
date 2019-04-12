@@ -99,11 +99,6 @@ export default {
     justify-content: center;
   }
 
-  .fullsize-navbar  {
-    margin-top: 35px;
-    min-width: 275px;
-  }
-
   nav ul {
     list-style-type: none;
     display: flex;
@@ -164,6 +159,11 @@ export default {
 
   .date-range {
     color: var(--main-color);
+  }
+  
+  .fullsize-navbar  {
+    margin-top: 35px;
+    min-width: 275px;
   }
 
   .small-navbar {    

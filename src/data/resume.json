@@ -25,21 +25,40 @@
             "job": "Software Engineer",
             "start": "December 2016",
             "end": "Present",
-            "description": "My work experience at COLSA as a software engineer"
+            "tasks": ["My work experience at COLSA as a software engineer"]
         }, 
         {
             "company": "SAIC",
             "job": "Software Engineer",
             "start": "January 2010",
             "end": "December 2016",
-            "description": "My work experience at SAIC as a software engineer"
+            "tasks": [
+                "Developed an analysis and visualization tool for helicopter pilots, safety and training officers.",
+                "Worked on a development team using the Scrum process.",
+                "Created a web interface in Angular 2 for interacting with a rules engine.",
+                "Refactored a tightly coupled data layer to use the repository pattern making the software more maintainable and unit testable.",
+                "Wrote a RESTful API for an existing backend using ASP.NET Web API.",
+                "Refactored a WinForms application into a WPF application with a a more maintainable design.",
+                "Developed rich user interfaces using WPF, C# and the Prism framework.",
+                "Crafted user interfaces for aircraft flight visualization and analysis tools.",
+                "Applied the Model-View-ViewModel (MVVM) design pattern to create more maintainable applications.",
+                "Created 3D tool for locating tracked parts on helicopters using the Microsoft's XNA game framework."
+            ]
         }, 
         {
             "company": "COLSA Corporation",
             "job": "Computer Operator (Intern)",
             "start": "August 2007",
             "end": "December 2009",
-            "description": "My work experience at COLSA as a computer operator"
+            "tasks": [
+                "Hired as an intern.",
+                "Developed dashboard software for a high altitude test-bed lab framework and payload flight computer.", 
+                "Worked on a development team using the Scrum process.",
+                "Analyzed software requirements.",
+                "Developed Windows and Linux software using C#, C++, and Python.",
+                "Maintained and upgraded user interface for monitoring the flight computer status in C# and IronPython.",
+                "Developed web-based user interface for monitoring payload status in ASP.NET Web Forms."
+            ]                
         }
     ],
     "skills": [ 
@@ -69,6 +88,20 @@
     ],
     "interests": "In her spare time, Ashley enjoys woodworking (Handmade with Ashley), 3D printing, tabletop gaming (Cardboard Bits), binge watching Korean dramas and spending time with her family.",
     "projects": [
+        {
+            "name": "Resume Website",
+            "start": "April 2019",
+            "description": "An resume/portfolio web application built with Vue.js.",
+            "source": "https://github.com/townsean/portfolio",
+            "website": "https://townsean.github.io/portfolio/"
+        },
+        {
+            "name": "Moody",
+            "start": "May 2016",
+            "description": "An Angular web app that displays the emotional polarity of a Twitter newsfeed. (An Angular Attack 48-Hour Hackathon entry)",
+            "source": "https://github.com/thecodingcouple/angularattack2016-thecodingcouple",
+            "website": "https://www.thecodingcouple.com/surviving-hackathon-angular-attack-2016/"
+        },
         {
             "name": "Bingo Card Generator",
             "start": "April 2016",
