@@ -1,7 +1,10 @@
 <template>
   <div id="app">
     <header>
-      <nav>
+      <nav class="small-navbar">        
+         <p>Hi, I'm {{ data.firstname }}.</p>
+      </nav>
+      <nav class="fullsize-navbar">
         <div class="avatar">        
           <img v-bind:src="data.avatar_url" alt="Profile picture" />
         </div>
@@ -93,9 +96,10 @@ export default {
 
   header {
     display: flex;
+    justify-content: center;
   }
 
-  nav {
+  .fullsize-navbar  {
     margin-top: 35px;
     min-width: 275px;
   }
@@ -162,6 +166,12 @@ export default {
     color: var(--main-color);
   }
 
+  .small-navbar {    
+    display: none;
+    padding-left: 30px;
+    color: var(--main-color-light);
+  }
+
   #app {
     display: flex;
     height: 100vh;
@@ -173,4 +183,27 @@ export default {
     background-color: whitesmoke;
     overflow-y: auto;
   }
+
+  @media screen and (max-width: 600px) {
+    #app {
+      flex-direction: column;
+    }
+
+    header {
+      justify-content: left;
+    }
+
+    nav {
+      margin-top: 5px;
+    }
+    
+    .fullsize-navbar {
+      display: none;
+    }
+
+    .small-navbar {
+      display: inline;
+    }
+  }
+
 </style>
