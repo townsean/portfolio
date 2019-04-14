@@ -77,6 +77,14 @@ section {
 }
 ```
 
+## What's Left to Implement?
+
+* Subtle animations in the Skills section
+* Navbar for mobile edition of the website
+* Jazz up the projects section
+* Create a printer friendly style sheet
+* Add a slight drop shadow on the navbar?
+
 ## Maintainers
 
 * [Ashley Grenon - @townsean](https://github.com/townsean)
