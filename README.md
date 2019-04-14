@@ -69,7 +69,7 @@ For the skill proficiency text labels I used the NIH [competencies proficiency s
 
 I noticed sluggish scrolling on the website while browsing it on my iPhone. Initially, I thought I may have some performance issue related to my use of [vue-scrollto](https://github.com/rigor789/vue-scrollto). Turns out, momentum scrolling was disabled.
 
-Unfortunately, most solutions to this issue use a non-standard CSS property: `[webkit-overflow-scrolling](https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-overflow-scrolling)`. The property controls whether or not touch devices use momentum scrolling.
+Unfortunately, most solutions to this issue use a non-standard CSS property: `--webkit-overflow-scrolling`. The property [controls whether or not touch devices use momentum scrolling](https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-overflow-scrolling).
 
 ```
 section {
