@@ -186,10 +186,6 @@ export default {
   }
 
   @media screen and (max-width: 600px) {
-    #app {
-      flex-direction: column;
-    }
-
     header {
       justify-content: left;
     }
@@ -204,6 +200,10 @@ export default {
 
     .small-navbar {
       display: inline;
+    }
+    
+    #app {
+      flex-direction: column;
     }
   }
 

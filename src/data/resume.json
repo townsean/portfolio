@@ -73,6 +73,8 @@
         { "name": "MySQL", "category": "Databases", "image_url": "mysql.png", "proficiency_level": ".5" },
         { "name": "MSSQL", "category": "Databases", "image_url": "database.jpg", "proficiency_level": ".5" },
         { "name": "MongoDB", "category": "Databases", "image_url": "mongodb.png", "proficiency_level": ".4" },
+        { "name": "Vue.js", "category": "Frameworks and Libraries", "image_url": "vuejs.png", "proficiency_level": ".55" },
+        { "name": "Angular", "category": "Frameworks and Libraries", "image_url": "angular.png", "proficiency_level": ".6" },
         { "name": ".NET Core", "category": "Frameworks and Libraries", "image_url": "netcore.png", "proficiency_level": ".79" },
         { "name": "ASP.NET Core", "category": "Frameworks and Libraries", "image_url": "asp.netcore.jpg", "proficiency_level": ".60" },
         { "name": "Entity Framework Core", "category": "Frameworks and Libraries", "image_url": "entityframeworkcore.png", "proficiency_level": ".5" },

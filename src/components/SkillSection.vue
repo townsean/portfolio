@@ -74,6 +74,11 @@
 <style>
     :root {
         --proficiency-bar-height: 15px;
+    }    
+
+    h5 {
+        font-weight: normal;
+        margin: 5px;
     }
 
     .category-group {
@@ -133,8 +138,9 @@
         background: linear-gradient(to right, lime, greenyellow);
     }
 
-    h5 {
-        font-weight: normal;
-        margin: 5px;
+    @media screen and (max-width: 600px) {
+        .skill-container {
+            justify-content: center;
+        }
     }
 </style>
