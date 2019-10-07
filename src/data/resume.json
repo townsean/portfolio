@@ -91,6 +91,12 @@
     ],
     "interests": "In her spare time, Ashley enjoys woodworking (Handmade with Ashley), 3D printing, tabletop gaming (Cardboard Bits), binge watching Korean dramas and spending time with her family.",
     "projects": [
+		{
+			"name": "Pixel Color Count",
+            "start": "October 2019",
+            "description": "A Python script that sums the total number of pixels per a unique color.",
+            "source": "https://github.com/townsean/pixel-color-count"
+		},
         {
             "name": "Resume Website",
             "start": "April 2019",

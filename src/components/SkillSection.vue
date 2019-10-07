@@ -137,10 +137,4 @@
         height: var(--proficiency-bar-height);
         background: linear-gradient(to right, lime, greenyellow);
     }
-
-    @media screen and (max-width: 600px) {
-        .skill-container {
-            justify-content: center;
-        }
-    }
 </style>
