@@ -38,10 +38,15 @@
     </header>
     <main id="resume">
       <AboutSection id="about" :profile="data" />
+      <hr>
       <ExperienceSection id="experience" v-bind:experience="data.experience" />
+      <hr>
       <SkillSection id="skills" v-bind:skills="data.skills" />
+      <hr>
       <EducationSection id="education" v-bind:schools="data.education" />
+      <hr>
       <ProjectSection id="projects" v-bind:projects="data.projects" />
+      <hr>
       <InterestSection id="interests" v-bind:interests="data.interests" />
     </main>
   </div>
@@ -97,6 +102,10 @@ export default {
   header {
     display: flex;
     justify-content: center;
+  }
+
+  hr {
+    display: none;
   }
 
   nav ul {
@@ -188,6 +197,12 @@ export default {
   @media screen and (max-width: 600px) {
     header {
       justify-content: left;
+    }
+
+    hr {
+      margin: 50px;
+      color: lightgrey;
+      display: block;
     }
 
     nav {
