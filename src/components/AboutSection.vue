@@ -47,7 +47,4 @@
         background-color: var(--main-color);
         color: whitesmoke;
     }
-
-    font-awesome-icon { 
-    }
 </style>
