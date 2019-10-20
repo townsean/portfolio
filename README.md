@@ -81,7 +81,7 @@ section {
 
 ### Build Error: This relative module was not found
 
-So, I went back and refactored the `SkillSection` to move the proficiency bar to its own component. In the process I encountered this error:
+So, I went back and refactored the [`SkillSection`](https://github.com/townsean/portfolio/blob/master/src/components/SkillSection.vue) to move the proficiency bar to its own component. In the process I encountered this error:
 
 ```
 ERROR Failed to compile with 1 errors 6:00:20 AM
