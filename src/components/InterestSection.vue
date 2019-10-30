@@ -1,7 +1,7 @@
 <template>
     <section>
         <h2>Interests</h2>
-        <p>{{ interests }}</p>
+        <p v-html="interests"></p>
     </section>
 </template>
 <script>

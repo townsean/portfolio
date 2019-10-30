@@ -24,7 +24,7 @@
             "company": "COLSA Corporation",
             "roles": [
                 {
-                    "job": "Software Engineer",
+                    "job": "Software Engineer 3",
                     "start": "December 2016",
                     "end": "Present",
                     "tasks": ["My work experience at COLSA as a software engineer"]
@@ -103,13 +103,22 @@
         { "name": "Confluence", "category": "Development Tools", "image_url": "confluence.jpg", "proficiency_level": ".75" },        
         { "name": "CircuitPython", "category": "Languages", "image_url": "circuitpython.png", "proficiency_level": ".3" }
     ],
-    "interests": "In her spare time, Ashley enjoys woodworking (Handmade with Ashley), 3D printing, tabletop gaming (Cardboard Bits), binge watching Korean dramas and spending time with her family.",
+    "interests": "In her spare time, Ashley enjoys woodworking (<a href='https://www.ashleygrenon.com/'>Handmade with Ashley</a>), 3D printing, tabletop gaming (<a href='http://www.cardboardbits.com/'>Cardboard Bits</a>), binge watching Korean dramas and spending time with her family.",
     "projects": [
+		{
+			"name": "Canvas Pixel Color Count",
+            "start": "October 2019",
+            "description": "A vanilla JS web application that accepts an image file (selected by the user) and displays the total number of pixels per a unique color.",
+            "source": "https://github.com/townsean/canvas-pixel-color-count",
+            "website": "https://townsean.github.io/canvas-pixel-color-counter/",
+            "preview_url": ""
+		},
 		{
 			"name": "Pixel Color Count",
             "start": "October 2019",
             "description": "A Python script that sums the total number of pixels per a unique color.",
-            "source": "https://github.com/townsean/pixel-color-count"
+            "source": "https://github.com/townsean/pixel-color-count",
+            "website": "https://www.thecodingcouple.com/counting-pixels-by-color-in-python-with-pillow-a-pil-fork/"
 		},
         {
             "name": "Resume Website",
@@ -124,6 +133,13 @@
             "description": "An Angular web app that displays the emotional polarity of a Twitter newsfeed. (An Angular Attack 48-Hour Hackathon entry)",
             "source": "https://github.com/thecodingcouple/angularattack2016-thecodingcouple",
             "website": "https://www.thecodingcouple.com/surviving-hackathon-angular-attack-2016/"
+        },
+        {
+            "name": "Ice Wizard",
+            "start": "April 2016",
+            "description": "A 2D web game where players control a wizard gliding on ice and dodging enemies. (A Ludem Dare 35 game jam entry)",
+            "source": "https://github.com/thecodingcouple/ludum-dare-35",
+            "website": "http://thecodingcouple.github.io/ludum-dare-35/"
         },
         {
             "name": "Bingo Card Generator",
