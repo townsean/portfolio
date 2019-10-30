@@ -79,6 +79,20 @@ section {
 }
 ```
 
+### Build Error: This relative module was not found
+
+So, I went back and refactored the [`SkillSection`](https://github.com/townsean/portfolio/blob/master/src/components/SkillSection.vue) to move the proficiency bar to its own component. In the process I encountered this error:
+
+```
+ERROR Failed to compile with 1 errors 6:00:20 AM
+
+This relative module was not found:
+
+* ./components/ProficiencyBar.vue in ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/SkillSection.vue?vue&type=script&lang=js&
+```
+
+It took longer to find the solution to the fix that I thought it would, and I wrote a little blog post with my debugging steps and solution to the problem. [Read it here.](https://www.thecodingcouple.com/vue-js-error-this-relative-module-was-not-found/)
+
 ## What's Left to Implement?
 
 * Subtle animations in the Skills section
