@@ -108,15 +108,15 @@
 		{
 			"name": "Canvas Pixel Color Counter",
             "start": "October 2019",
-            "description": "A vanilla JS web application that accepts an image file (selected by the user) and displays the total number of pixels per a unique color.",
-            "source": "https://github.com/townsean/canvas-pixel-color-count",
+            "description": "Canvas Pixel Color Counter is a vanilla JS web application that accepts an image file (selected by the user) and displays the total number of pixels per a unique color.",
+            "source": "https://github.com/townsean/canvas-pixel-color-counter",
             "website": "https://townsean.github.io/canvas-pixel-color-counter/",
             "preview_url": "canvas-pixel-color-counter.gif"
 		},
 		{
 			"name": "Pixel Color Counter",
             "start": "October 2019",
-            "description": "A Python script that sums the total number of pixels per a unique color.",
+            "description": "Pixel Color Counter is a Python script that sums the total number of pixels per a unique color.",
             "source": "https://github.com/townsean/pixel-color-count",
             "website": "https://www.thecodingcouple.com/counting-pixels-by-color-in-python-with-pillow-a-pil-fork/",
             "preview_url": "python-pixel-color-count.png"
@@ -132,7 +132,7 @@
         {
             "name": "Moody",
             "start": "May 2016",
-            "description": "An Angular web app that displays the emotional polarity of a Twitter newsfeed. (An Angular Attack 48-Hour Hackathon entry)",
+            "description": "Moody is an Angular web app that displays the emotional polarity of a Twitter newsfeed. (An Angular Attack 48-Hour Hackathon entry)",
             "source": "https://github.com/thecodingcouple/angularattack2016-thecodingcouple",
             "website": "https://www.thecodingcouple.com/surviving-hackathon-angular-attack-2016/",
             "preview_url": "angularattack2016.gif"
@@ -140,7 +140,7 @@
         {
             "name": "Ice Wizard",
             "start": "April 2016",
-            "description": "A 2D web game where players control a wizard gliding on ice and dodging enemies. (A Ludem Dare 35 game jam entry)",
+            "description": "Ice Wizard is a 2D web game where players control a wizard gliding on ice and dodging enemies. (A Ludem Dare 35 game jam entry)",
             "source": "https://github.com/thecodingcouple/ludum-dare-35",
             "website": "http://thecodingcouple.github.io/ludum-dare-35/",
             "preview_url": "ice_wizard.gif"
@@ -156,7 +156,7 @@
         {
             "name": "Image Watermarker",
             "start": "August 2015",
-            "description": "A Python script gives users the ability to watermark image files in bulk.",
+            "description": "Image Watermaker is a Python script gives users the ability to watermark image files in bulk.",
             "source": "https://github.com/townsean/image-marker",
             "website": "https://www.thecodingcouple.com/watermark-images-python-pillow-pil/",
             "preview_url": "image-marker-output.png"

@@ -21,21 +21,25 @@
     h3 a {
         text-decoration: none;
         color: black;
-    }
-
-    figure {
-        
-    }
+    }    
 
     img {                
         width: auto;
         height: auto;
         max-height: 25vh;
-        max-width: 75vh;
+        max-width: 55vh;
         margin: 1rem;
     }
 
     .project {
+        display: flex;
+        flex-direction: column;
         margin-top: 1rem;
+    }
+
+    @media screen and (max-width: 600px) {
+        figure {
+            text-align: center;
+        }
     }
 </style>
