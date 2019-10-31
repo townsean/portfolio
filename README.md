@@ -6,7 +6,7 @@ See in it action [here](http://townsean.github.io/portfolio/)! (work in progress
 
 Portfolio is a Vue.js web application that reads in json data and displays the contents in a digital resume format. 
 
-![sample output for the portfolio website](public/assets/portfolio-sample.gif "Sample output for Ashley's Vue Portfolio website")
+![sample output for the portfolio website](public/assets/project_previews/portfolio-sample.gif "Sample output for Ashley's Vue Portfolio website")
 
 ## Motivation
 
