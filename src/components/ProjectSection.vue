@@ -31,6 +31,7 @@
         width: auto;
         height: auto;
         max-height: 25vh;
+        max-width: 75vh;
         margin: 1rem;
     }
 
