@@ -56,6 +56,7 @@
     .category-group {
         display: flex;
         flex-direction: column;
+        margin-bottom: 2rem;
     }
 
     .skill-container {

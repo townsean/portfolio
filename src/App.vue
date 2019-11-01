@@ -90,13 +90,18 @@ export default {
     --complementary-color-light: #FAB632;
   }
 
+  html, body {
+    width: 100%;
+    height: 100%;
+  }
+
   body {
     /*background: linear-gradient(to bottom, #555, #999);*/
     background: radial-gradient(circle at bottom, var(--main-color-medium), var(--main-color));
     background-attachment: fixed;
     margin: 0;
     font-family: 'Lato', sans-serif;
-    overflow: hidden;
+    overflow: hidden; 
   } 
 
   header {
@@ -187,7 +192,7 @@ export default {
   }
 
   #resume {
-    margin: 0 auto;
+    margin: 0;
     padding: 30px;
     background-color: whitesmoke;
     overflow-y: auto;

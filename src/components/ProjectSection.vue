@@ -35,11 +35,17 @@
         display: flex;
         flex-direction: column;
         margin-top: 1rem;
+        margin-bottom: 2rem;
     }
 
     @media screen and (max-width: 600px) {
         figure {
             text-align: center;
+            margin: 0;
+        }
+
+        img {            
+            max-width: 40vh;
         }
     }
 </style>
