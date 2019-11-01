@@ -1,7 +1,7 @@
 <template>
     <section>
         <h2>Experience</h2>
-        <section v-for="exp in experience" :key="exp.id">
+        <section class="experience-container" v-for="exp in experience" :key="exp.id">
             <h3>{{ exp.company }}</h3>
             <!-- Roles (Should be a separate component, but I'm lazy) -->
             <section v-for="role in exp.roles" :key="role.id">
@@ -22,6 +22,8 @@
         props: ['experience']
     }
 </script>
-<style>
-
+<style scoped>
+    .experience-container {
+        margin-bottom: 2rem;
+    }
 </style>

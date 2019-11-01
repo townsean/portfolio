@@ -176,14 +176,22 @@ export default {
   }
   
   .fullsize-navbar  {
-    margin-top: 35px;
+    padding-top: 35px;
     min-width: 275px;
+    z-index: 1;      
+    box-shadow: 2px 0 10px gray;
   }
 
   .small-navbar {    
     display: none;
+    margin: 0;
     padding-left: 30px;
     color: var(--main-color-light);
+  }
+
+  .small-navbar p {
+    width: 100wv;
+
   }
 
   #app {
@@ -216,10 +224,14 @@ export default {
     
     .fullsize-navbar {
       display: none;
+      box-shadow: none;
     }
 
     .small-navbar {
-      display: inline;
+      display: inline-block;
+      width: 100%;
+      z-index: 1;      
+      box-shadow: 0 2px 10px gray;
     }
     
     #app {

@@ -69,7 +69,7 @@
         border: 1px solid midnightblue;
         margin: 5px;
         word-wrap: break-word;
-        width: 125px;
+        width: 105px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -81,8 +81,8 @@
     }
 
     .image-container > img {
-        height: 115px;
-        width: 115px;
+        height: 105px;
+        width: 105px;
         background-position: 50% 50%;
         background-size: cover;
         object-fit: cover;
