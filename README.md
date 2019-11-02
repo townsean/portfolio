@@ -101,9 +101,9 @@ It took longer to find the solution to the fix that I thought it would, and I wr
 
 * Subtle animations in the Skills section
 * Navbar for mobile edition of the website
-* Jazz up the projects section
+* ~~Jazz up the projects section~~ [Done]
 * Create a printer friendly style sheet
-* Add a slight drop shadow on the navbar?
+* ~~Add a slight drop shadow on the navbar?~~ [Done]
 
 ## Maintainers
 
