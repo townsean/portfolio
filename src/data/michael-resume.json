@@ -1,0 +1,75 @@
+{
+    "firstname": "Michael",
+    "lastname": "Grenon",
+    "email": "michael@thecodingcouple.com",
+    "location": "Huntsville, AL",
+    "phone": "N/A",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/991475?s=400&v=4",
+    "github": "https://github.com/nsipid",
+    "twitter": "https://twitter.com/thecodingcouple",
+    "website": "https://www.thecodingcouple.com/",
+    "summary": "Michael Greon is a software engineer with over 10 years of professional development experience.",
+    "education": [
+        {
+            "school": "University of Alabama in Huntsville",
+            "degree": "Masters of Science",
+            "major": "Software Engineering",
+            "start": "August 2012",
+            "end": "August 2018"
+        },
+        {
+            "school": "University of Alabama in Huntsville",
+            "degree": "Bachelor of Science",
+            "major": "Computer Science",
+            "minor": "Mathematics",
+            "start": "August 2005",
+            "end": "December 2009"
+        }
+    ],
+    "experience": [
+        {
+            "company": "University of Alabama in Huntsville",
+            "roles": [
+                {
+                    "job": "Student System Administrator",
+                    "start": "August 2007",
+                    "end": "December 2009",
+                    "tasks": [
+                        "Administrator for Linux and Windows machines"
+                    ]
+                }
+            ]
+        }
+    ],
+    "skills": [
+        { "name": ".NET Framework", "category": "Frameworks and Libraries", "image_url": "netframework.png", "proficiency_level": ".79" },
+        { "name": "Git", "category": "Development Tools", "image_url": "git.png", "proficiency_level": ".7" },        
+        { "name": "Visual Studio Code", "category": "Development Tools", "image_url": "vscode.png", "proficiency_level": ".79" },
+        { "name": "Visual Studio", "category": "Development Tools", "image_url": "visualstudio.png", "proficiency_level": ".79" }    
+    ],
+    "projects": [
+        {
+            "name": "Moody",
+            "start": "May 2016",
+            "description": "Moody is an Angular web app that displays the emotional polarity of a Twitter newsfeed. (An Angular Attack 48-Hour Hackathon entry)",
+            "source": "https://github.com/thecodingcouple/angularattack2016-thecodingcouple",
+            "website": "https://www.thecodingcouple.com/surviving-hackathon-angular-attack-2016/",
+            "preview_url": "angularattack2016.gif"
+        },
+        {
+            "name": "Ice Wizard",
+            "start": "April 2016",
+            "description": "Ice Wizard is a 2D web game where players control a wizard gliding on ice and dodging enemies. (A Ludem Dare 35 game jam entry)",
+            "source": "https://github.com/thecodingcouple/ludum-dare-35",
+            "website": "http://thecodingcouple.github.io/ludum-dare-35/",
+            "preview_url": "ice_wizard.gif"
+        },
+        {
+            "name": "Brew",
+            "start": "May 2013",
+            "description": "Brew is a prototype of a social web app for homebrewers.",
+            "source": "https://github.com/nsipid/Brew"
+        }
+    ],
+    "interests": "Michael is a developer who is never satisfied with just getting something to work, he has to understand how it works. Michael enjoys an occasional craft beer, reading philosophy and sleeping in on Saturdays."
+}

@@ -36,18 +36,18 @@
         </ul>
       </nav>
     </header>
-    <main id="resume">
+    <main id="resume" @click.ctrl="toggleData">
       <AboutSection id="about" :profile="data" />
       <hr>
-      <ExperienceSection id="experience" v-bind:experience="data.experience" />
+      <ExperienceSection id="experience" v-if="data.experience" v-bind:experience="data.experience" />
       <hr>
-      <SkillSection id="skills" v-bind:skills="data.skills" />
+      <SkillSection id="skills" v-if="data.skills" v-bind:skills="data.skills" />
       <hr>
-      <EducationSection id="education" v-bind:schools="data.education" />
+      <EducationSection id="education" v-if="data.education" v-bind:schools="data.education" />
       <hr>
-      <ProjectSection id="projects" v-bind:projects="data.projects" />
+      <ProjectSection id="projects" v-if="data.projects" v-bind:projects="data.projects" />
       <hr>
-      <InterestSection id="interests" v-bind:interests="data.interests" />
+      <InterestSection id="interests" v-if="data.interests" v-bind:interests="data.interests" />
     </main>
   </div>
 </template>
@@ -60,7 +60,9 @@ import EducationSection from './components/EducationSection.vue';
 import ProjectSection from './components/ProjectSection.vue';
 import InterestSection from './components/InterestSection.vue';
 
-import data from './data/resume.json';
+// resume data, eww
+import ashley from './data/ashley-resume.json';
+import michael from './data/michael-resume.json';
 
 export default {
   name: 'app',
@@ -73,7 +75,22 @@ export default {
     InterestSection
   },
   data() {
-    return { data };
+    return { data: ashley };
+  },
+  methods: {
+    /**
+     * An Easter Egg:
+     *   Toggle between 2 different resume.json files with CTRL + mouse click. 
+     *   Not an elegant thing, but I wanted to quickly demostrate that 
+     *   none of the data is hardcorded. 
+     */
+    toggleData: function(event) {
+      if(this.data == ashley) {        
+        this.data = michael;
+      } else {
+        this.data = ashley;
+      }
+    }
   }
 };
 </script>
@@ -152,6 +169,10 @@ export default {
     text-transform: uppercase;
   }
 
+  h2 {
+    margin-top: 45px;
+  }
+
   h3, h4 {
     margin: 5px 0;
   }
@@ -201,7 +222,7 @@ export default {
 
   #resume {
     margin: 0;
-    padding: 30px;
+    padding: 30px 60px 30px 60px;
     background-color: whitesmoke;
     overflow-y: auto;
     flex: 1;
@@ -236,6 +257,10 @@ export default {
     
     #app {
       flex-direction: column;
+    }
+
+    #resume {
+      padding: 30px;
     }
   }
 

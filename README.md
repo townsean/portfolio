@@ -54,6 +54,10 @@ git add dist && git commit -m "updating gh-pages"
 git subtree push --prefix dist origin gh-pages
 ```
 
+## An Easter Egg
+
+Toggle between 2 different resume.json files with CTRL + mouse click. Not an elegant thing, but I wanted to quickly demostrate that none of the data is hardcorded. 
+
 ## Built With
 
 * [Vue.js](https://vuejs.org/)
