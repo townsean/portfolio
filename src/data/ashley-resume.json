@@ -27,7 +27,12 @@
                     "job": "Software Engineer 3",
                     "start": "December 2016",
                     "end": "Present",
-                    "tasks": ["My work experience at COLSA as a software engineer"]
+                    "tasks": [
+                        "Maintain and develop new features on a Vue.JS web application with a C# and ASP.NET Core Web API backend",
+                        "Created a log viewer tool to aid developers and testers in debugging and verifying data in the database.",
+                        "Wrote SQL queries for reports.",
+                        "Maintained an Angular snd Typescript web application.",
+                        "Maintained and developed new features on an ASP.NET MVC web application."]
                 }
             ]
         }, 
