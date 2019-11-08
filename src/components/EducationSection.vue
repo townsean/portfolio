@@ -1,5 +1,6 @@
 <template>
-    <section>
+    <section>        
+        <hr>
         <h2>Education</h2>        
         <section v-for="school in schools" :key="school.id">
             <h3>{{ school.school }}</h3>

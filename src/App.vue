@@ -38,15 +38,10 @@
     </header>
     <main id="resume" @click.ctrl="toggleData">
       <AboutSection id="about" :profile="data" />
-      <hr>
       <ExperienceSection id="experience" v-if="data.experience" v-bind:experience="data.experience" />
-      <hr>
       <SkillSection id="skills" v-if="data.skills" v-bind:skills="data.skills" />
-      <hr>
-      <EducationSection id="education" v-if="data.education" v-bind:schools="data.education" />
-      <hr>
       <ProjectSection id="projects" v-if="data.projects" v-bind:projects="data.projects" />
-      <hr>
+      <EducationSection id="education" v-if="data.education" v-bind:schools="data.education" />
       <InterestSection id="interests" v-if="data.interests" v-bind:interests="data.interests" />
     </main>
   </div>
@@ -81,8 +76,8 @@ export default {
     /**
      * An Easter Egg:
      *   Toggle between 2 different resume.json files with CTRL + mouse click. 
-     *   Not an elegant thing, but I wanted to quickly demostrate that 
-     *   none of the data is hardcorded. 
+     *   Not an elegant thing, (should implement this feature as a route) 
+     *   but I wanted to quickly demostrate that none of the data is hardcorded. 
      */
     toggleData: function(event) {
       if(this.data == ashley) {        
@@ -263,5 +258,31 @@ export default {
       padding: 30px;
     }
   }
+
+  @media print {    
+    header, nav, footer {
+      display: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    h2 {
+      margin-bottom: 5px;
+    }
+
+    p, ul, h3, h4 {
+      margin: 0;
+    }
+
+    #resume {
+      display: block;
+      overflow: visible;
+      height: 100%;
+    }
+  }
+
 
 </style>

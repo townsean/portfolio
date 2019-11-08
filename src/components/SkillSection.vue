@@ -1,5 +1,6 @@
 <template>
-    <section>
+    <section>        
+        <hr>
         <h2>Skills</h2>
         <section>
             <div class="category-group" v-for="(skills, category) in categories" :key="category.id">
@@ -14,6 +15,13 @@
                         <ProficiencyBar :value="skill.proficiency_level" />              
                     </section>
                 </div>
+            </div> 
+            <!-- Printer friendly skill section -->
+            <div class="category-group--printer-friendly" v-for="(skills, category) in categories" :key="category.id">
+                <strong>{{ category }}</strong>
+                <span v-for="skill in skills" :key="skill.id">
+                    {{ skill.name }},            
+                </span>
             </div>            
         </section>        
     </section>
@@ -59,6 +67,10 @@
         margin-bottom: 2rem;
     }
 
+    .category-group--printer-friendly {
+        display: none;
+    }
+
     .skill-container {
         display: flex;
         flex-flow: row wrap;
@@ -87,5 +99,15 @@
         background-size: cover;
         object-fit: cover;
         margin: 5px;
+    }
+
+    @media print {
+        .category-group {
+            display: none;
+        }
+
+        .category-group--printer-friendly {
+            display: block;
+        }
     }
 </style>

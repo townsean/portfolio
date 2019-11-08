@@ -1,5 +1,6 @@
 <template>
-    <section>
+    <section>        
+        <hr>
         <h2>Interests</h2>
         <p v-html="interests"></p>
     </section>
@@ -10,4 +11,10 @@
         props: ['interests']
     }
 </script>
-<style></style>
+<style scoped>
+    @media print {
+        section {
+            display: none;
+        }
+    }
+</style>

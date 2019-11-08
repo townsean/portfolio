@@ -1,7 +1,7 @@
 {
     "firstname": "Ashley",
     "lastname": "Grenon",
-    "email": "hello@handmadewithashley.com",
+    "email": "ashley@thecodingcouple.com",
     "location": "Huntsville, AL",
     "phone": "256-262-7935",
     "avatar_url": "https://avatars2.githubusercontent.com/u/1208961?s=460&v=4",
@@ -31,7 +31,7 @@
                         "Maintain and develop new features on a Vue.JS web application with a C# and ASP.NET Core Web API backend",
                         "Created a log viewer tool to aid developers and testers in debugging and verifying data in the database.",
                         "Wrote SQL queries for reports.",
-                        "Maintained an Angular snd Typescript web application.",
+                        "Maintained an Angular and Typescript web application.",
                         "Maintained and developed new features on an ASP.NET MVC web application."]
                 }
             ]

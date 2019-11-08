@@ -1,5 +1,6 @@
 <template>
     <section>
+        <hr>
         <h2>Experience</h2>
         <section class="experience-container" v-for="exp in experience" :key="exp.id">
             <h3>{{ exp.company }}</h3>
@@ -25,5 +26,5 @@
 <style scoped>
     .experience-container {
         margin-bottom: 2rem;
-    }
+    }    
 </style>
