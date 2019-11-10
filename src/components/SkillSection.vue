@@ -19,9 +19,12 @@
             <!-- Printer friendly skill section -->
             <div class="category-group--printer-friendly" v-for="(skills, category) in categories" :key="category.id">
                 <strong>{{ category }}</strong>
-                <span v-for="skill in skills" :key="skill.id">
-                    {{ skill.name }},            
-                </span>
+                <div v-for="(skill, index) in skills" :key="skill.id">
+                    <span class="category-group-skill">
+                        {{ skill.name }}           
+                    </span>
+                    <span class="category-group-comma" v-if="index != skills.length - 1">,</span> 
+                </div>
             </div>            
         </section>        
     </section>
@@ -52,6 +55,12 @@
             categories() {
                 return this.groupBy(this.skills, "category");
             }
+        },
+        mounted() {
+            // sort by skill proficieny level in descending order
+            this.skills.sort((a, b) => {
+                return b.proficiency_level - a.proficiency_level;
+            });
         }
     };
 </script>
@@ -107,7 +116,18 @@
         }
 
         .category-group--printer-friendly {
-            display: block;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        .category-group--printer-friendly div {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .category-group-skill {
+            margin-left: 0.25rem;
         }
     }
 </style>
