@@ -24,17 +24,18 @@
             "company": "Millennium Corporation",
             "roles": [
                 {
-                    "job": "Technical Lead 3",
+                    "job": "Technical Lead 4",
                     "start": "May 2021",
                     "end": "Present",
                     "tasks": [
                         "Lead sprint planning, review and retrospective meetings",
                         "Responsible for keeping the backlog organized and prioritized",
-                        "Maintain release notes, versioning and tagging for software product"
+                        "Maintain release notes, versioning and tagging for software product",
+                        "Maintained same duties from Senior Frontend Developer role"
                     ]
                 },
                 {
-                    "job": "Senior Frontend Engineer",
+                    "job": "Senior Frontend Developer",
                     "start": "March 2020",
                     "end": "May 2021",
                     "tasks": [
