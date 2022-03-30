@@ -27,10 +27,17 @@
         </div>
         <!-- Printer friendly About section -->
         <div class="about--printer-friendly">
-            <h1>{{ profile.firstname }} {{ profile.lastname }}</h1>        
-            <p><font-awesome-icon icon="phone" />  {{ profile.phone }}</p>
-            <p><font-awesome-icon icon="envelope" />  {{ profile.email }}</p>
-            <p><font-awesome-icon :icon="['fab', 'github']" />  {{ profile.github }}</p>
+            <h1>{{ profile.firstname }} {{ profile.lastname }}</h1>   
+            <section>
+                <div>
+                    <p><font-awesome-icon icon="phone" />  {{ profile.phone }}</p>
+                    <p><font-awesome-icon icon="envelope" />  {{ profile.email }}</p>
+                </div>
+                <div>
+                    <p><font-awesome-icon :icon="['fab', 'github']" />  {{ profile.github }}</p>
+                    <p><font-awesome-icon icon="globe" />  {{ profile.website }}</p>
+                </div>
+            </section>     
             <hr>
         </div>
     </section>
@@ -74,6 +81,15 @@
         .about--printer-friendly {
             display: inline;
             text-align: left;
+        }
+
+        .about--printer-friendly > section {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .about--printer-friendly > section > div {
+            width: 50%;
         }
     }
 </style>

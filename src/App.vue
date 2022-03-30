@@ -269,12 +269,24 @@ export default {
         color: black;
     }
 
-    h2 {
-      margin-bottom: 5px;
+    h1, h2 {
+      margin: 20px 0 5px 0;
     }
 
     p, ul, h3, h4 {
-      margin: 0;
+      margin: 2px;
+    }
+
+    h3, h4 {
+      font-size: 1rem;
+    }
+
+    h4 {
+      font-style: italic;
+    }
+
+    p, ul, h5, span {
+      font-size: 0.9rem;
     }
 
     #resume {
