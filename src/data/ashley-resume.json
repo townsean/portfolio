@@ -21,14 +21,38 @@
     ],
     "experience": [
         {
+            "company": "Millennium Corporation",
+            "roles": [
+                {
+                    "job": "Technical Lead 3",
+                    "start": "May 2021",
+                    "end": "Present",
+                    "tasks": [
+                        "Lead sprint planning, review and retrospective meetings",
+                        "Responsible for keeping the backlog organized and prioritized",
+                        "Maintain release notes, versioning and tagging for software product"
+                    ]
+                },
+                {
+                    "job": "Senior Frontend Engineer",
+                    "start": "March 2020",
+                    "end": "May 2021",
+                    "tasks": [
+                        "Maintained and developed new features for a Vue.js web application",
+                        "Converted mockups provided by UX designers into functionality within the web application"
+                    ]
+                }
+            ]
+        },
+        {
             "company": "COLSA Corporation",
             "roles": [
                 {
                     "job": "Software Engineer 3",
                     "start": "December 2016",
-                    "end": "Present",
+                    "end": "March 2020",
                     "tasks": [
-                        "Maintain and develop new features on a Vue.JS web application with a C# and ASP.NET Core Web API backend",
+                        "Maintained and developed new features on a Vue.js web application with a C# and ASP.NET Core Web API backend",
                         "Created a log viewer tool to aid developers and testers in debugging and verifying data in the database.",
                         "Wrote SQL queries for reports.",
                         "Maintained an Angular and Typescript web application.",
@@ -106,7 +130,9 @@
         { "name": "Bitbucket", "category": "Development Tools", "image_url": "bitbucket.png", "proficiency_level": ".75" },
         { "name": "Jira", "category": "Development Tools", "image_url": "jira.jpg", "proficiency_level": ".75" },
         { "name": "Confluence", "category": "Development Tools", "image_url": "confluence.jpg", "proficiency_level": ".75" },        
-        { "name": "CircuitPython", "category": "Languages", "image_url": "circuitpython.png", "proficiency_level": ".3" }
+        { "name": "CircuitPython", "category": "Languages", "image_url": "circuitpython.png", "proficiency_level": ".3" },        
+        { "name": "Go", "category": "Languages", "image_url": "go.png", "proficiency_level": ".3" },        
+        { "name": "Postgres", "category": "Databases", "image_url": "postgres.png", "proficiency_level": ".3" }
     ],
     "interests": "In her spare time, Ashley enjoys woodworking (<a href='https://www.ashleygrenon.com/'>Handmade with Ashley</a>), 3D printing, tabletop gaming (<a href='http://www.cardboardbits.com/'>Cardboard Bits</a>), binge watching Korean dramas and spending time with her family.",
     "projects": [
