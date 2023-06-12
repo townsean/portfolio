@@ -21,16 +21,30 @@
     ],
     "experience": [
         {
+            "company": "TPG, Inc.",
+            "roles": [
+                {
+                    "job": "Frontend Software Engineer",
+                    "start": "May 2022",
+                    "end": "Present",
+                    "tasks": [
+                        "Develop and maintain a Vue.js software client that interfaced with Tableau"
+                    ]
+                }
+            ]
+        },
+        {
             "company": "Millennium Corporation",
             "roles": [
                 {
                     "job": "Technical Lead 4",
                     "start": "May 2021",
-                    "end": "Present",
+                    "end": "May 2022",
                     "tasks": [
-                        "Lead sprint planning, review and retrospective meetings",
+                        "Lead a team consisting of 4 developers and 2 testers",
+                        "Lead daily stand-ups, sprint planning, review and retrospective meetings",
                         "Responsible for keeping the backlog organized and prioritized",
-                        "Maintain release notes, versioning and tagging for software product",
+                        "Maintained release notes, versioning and tagging for software product",
                         "Maintained same duties from Senior Frontend Developer role"
                     ]
                 },
@@ -137,6 +151,22 @@
     ],
     "interests": "In her spare time, Ashley enjoys woodworking (<a href='https://www.ashleygrenon.com/'>Handmade with Ashley</a>), 3D printing, tabletop gaming (<a href='http://www.cardboardbits.com/'>Cardboard Bits</a>), binge watching Korean dramas and spending time with her family.",
     "projects": [
+        {
+            "name": "Well Travelled",
+            "start": "September 2022",
+            "description": "In Well Travelled, you've just returned from a trip around the world! As you review photos from the trip, can you correctly recall which countries you were in? (A Trijam #186 game jam entry",
+            "source": "https://github.com/townsean/trijam-186",
+            "website": "https://townsean.github.io/trijam-186/",
+            "preview_url": "https://github.com/townsean/trijam-186/raw/main/assets/well-travelled.gif"
+        },
+        {
+            "name": "Monster Mimic",
+            "start": "June 2022",
+            "description": "Monster Mimic is a speed and memory game. Players assume the role of a monster with the ability to mimic the appearance of monsters they encounter. (A Trijam #173 game jam entry)",
+            "source": "https://github.com/townsean/trijam-173",
+            "website": "https://townsean.github.io/trijam-173/",
+            "preview_url": "https://github.com/townsean/trijam-173/blob/main/assets/monster-mimic.gif?raw=true"
+        },
 		{
 			"name": "Canvas Pixel Color Counter",
             "start": "October 2019",
