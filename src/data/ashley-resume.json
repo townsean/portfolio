@@ -28,7 +28,9 @@
                     "start": "May 2022",
                     "end": "Present",
                     "tasks": [
-                        "Develop and maintain a Vue.js software client that interfaced with Tableau"
+                        "Developed and maintained a Vue.js software client with embedded Tableau views",
+                        "Developed and maintained a Vue.js software client for managing Elasticsearch Lucene queries",
+                        "Intergrated Auth0 into a Vue.js client with a customized Universal Login Page"
                     ]
                 }
             ]
@@ -41,7 +43,7 @@
                     "start": "May 2021",
                     "end": "May 2022",
                     "tasks": [
-                        "Lead a team consisting of 4 developers and 2 testers",
+                        "Lead a team consisting of 4 software developers and 2 testers",
                         "Lead daily stand-ups, sprint planning, review and retrospective meetings",
                         "Responsible for keeping the backlog organized and prioritized",
                         "Maintained release notes, versioning and tagging for software product",
@@ -152,9 +154,17 @@
     "interests": "In her spare time, Ashley enjoys woodworking (<a href='https://www.ashleygrenon.com/'>Handmade with Ashley</a>), 3D printing, tabletop gaming (<a href='http://www.cardboardbits.com/'>Cardboard Bits</a>), binge watching Korean dramas and spending time with her family.",
     "projects": [
         {
+            "name": "Famous Blunders",
+            "start": "March 2024",
+            "description": "In Famous Blunders, you are replaying the final moments before a chess player blundered a game piece (A Trijam #261 game jam entry)",
+            "source": "https://github.com/thecodingcouple/trijam-261",
+            "website": "https://www.thecodingcouple.com/trijam-261-game-jam-diary-one-wrong-move/",
+            "preview_url": "https://github.com/thecodingcouple/trijam-261/blob/main/assets/game-preview.gif"
+        },
+        {
             "name": "Well Travelled",
             "start": "September 2022",
-            "description": "In Well Travelled, you've just returned from a trip around the world! As you review photos from the trip, can you correctly recall which countries you were in? (A Trijam #186 game jam entry",
+            "description": "In Well Travelled, you've just returned from a trip around the world! As you review photos from the trip, can you correctly recall which countries you were in? (A Trijam #186 game jam entry)",
             "source": "https://github.com/townsean/trijam-186",
             "website": "https://townsean.github.io/trijam-186/",
             "preview_url": "https://github.com/townsean/trijam-186/raw/main/assets/well-travelled.gif"
